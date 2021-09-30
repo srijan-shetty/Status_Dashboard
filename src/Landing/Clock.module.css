@@ -1,0 +1,92 @@
+#dtocclock {
+
+	border-radius: 30px;
+	float:right;
+	margin:20px 20px 0px 0px;
+	width:400px;
+	height:463px;
+	border: 1px solid gray;
+	text-align:center;
+	font-family:"Bebas";
+	color:white;
+	
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	-webkit-box-shadow: 0px 30px 62px -9px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 30px 62px -9px rgba(0,0,0,0.62);
+	box-shadow: 0px 30px 62px -9px rgba(0,0,0,0.62);
+
+
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+	cursor: default;
+}
+#dtocclockwatches {
+	border-radius: 5px;
+	margin:40px 40px 20px 40px;
+	width:320px;
+	height:353px;
+	border:1px solid black;
+	font-family:"DotMatrix";
+	
+	background: rgb(30,30,30); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(30,30,30,1) 1%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(30,30,30,1) 1%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(30,30,30,1) 1%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#dtocclockwatchesclockhours {
+	margin-left:30px;
+	float:left;
+}
+#dtocclockwatchesclockdot {
+    animation: dotanimation 2s infinite ;
+	float:left;
+}
+#dtocclockwatchesclockminutes {
+	float:left;
+	margin-left:-30px;
+}
+@keyframes dotanimation {  
+	0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+#dtocclockwatchesdate {
+	margin-top:30px;
+	font-size:18pt;
+}
+#dtocclockwatchesclock {	
+height:100px;
+overflow:hidden;
+	font-size:60pt;
+}
+#dtocclockwatchesweekday {	
+	clear:both;
+	font-size:28pt;
+}
+#dtocclockwatchestodayscheck {	
+	line-height:3pt;
+	margin:0px;
+	font-size:3pt;
+	text-align:center;
+}
+#dtocclockwatchestodayscheck a {
+	color:white;
+	text-decoration:none;
+}
+#dtocclockwatchestodayscheck a:hover {
+	text-decoration:underline;
+}

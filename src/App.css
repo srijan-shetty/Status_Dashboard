@@ -1,0 +1,119 @@
+
+@font-face {
+  font-family: "Danske";
+  src: local("Danske"), url("./fonts/danske\ human/DanskeHuman-MediumItalic.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "Danske 1";
+  src: local("Danske 1"), url("./fonts/danske\ text\ v2/Danske\ Text\ v2-Regular.woff") format("truetype");
+}
+
+html *,
+body * {
+  font-family: "Danske 1", danske_textregular, Verdana, sans-serif;
+}
+
+html {
+  background-color: #ffffff;
+  font-family: "Danske 1", danske_textregular, Verdana, sans-serif;
+}
+
+h1 * {
+  font-family: "Danske", danske_humanMediumIt, Georgia, serif;
+  line-height: 1.2;
+  font-weight: normal;
+  font-size: 2.75rem;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  margin: 0 0 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Danske", danske_humanMediumIt, Georgia, serif;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0 0 16px;
+}
+
+h2 * {
+  font-family: "Danske", danske_humanMediumIt, Georgia, serif;
+}
+
+h3 * {
+  font-family: "Danske", danske_humanMediumIt, Georgia, serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Danske 1", danske_textregular, Verdana, sans-serif;
+}
+
+
+.App {
+  text-align: center;
+  background-color: white;
+  /* background-color: #fbfdfe; */
+  /* background: #e8eff5 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6N4nrOgvjjOC-QsSugIRaXC4Vv7_EaaVN0S8xvWImPclBUPBVWj3VD_SrQSlJIGvGWbU&usqp=CAU') */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: auto;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,9 @@
+.cardzoom:hover {
+    transform: scale(1.1);
+}
+.cardzooms:hover {
+    transform: scale(1.05);
+}
+.cardzooms {
+    margin-bottom: 10px;
+}

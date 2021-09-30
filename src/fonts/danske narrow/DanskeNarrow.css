@@ -1,0 +1,12 @@
+/* Webfont: DanskeNarrow */@font-face {
+    font-family: 'DanskeNarrow';
+    src: url('DanskeNarrow.eot'); /* IE9 Compat Modes */
+    src: url('DanskeNarrow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('DanskeNarrow.woff') format('woff'), /* Modern Browsers */
+         url('DanskeNarrow.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('DanskeNarrow.svg#DanskeNarrow') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

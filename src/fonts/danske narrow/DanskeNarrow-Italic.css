@@ -1,0 +1,12 @@
+/* Webfont: DanskeNarrow-Italic */@font-face {
+    font-family: 'DanskeNarrow';
+    src: url('DanskeNarrow-Italic.eot'); /* IE9 Compat Modes */
+    src: url('DanskeNarrow-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('DanskeNarrow-Italic.woff') format('woff'), /* Modern Browsers */
+         url('DanskeNarrow-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('DanskeNarrow-Italic.svg#DanskeNarrow-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

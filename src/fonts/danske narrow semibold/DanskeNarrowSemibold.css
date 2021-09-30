@@ -1,0 +1,12 @@
+/* Webfont: DanskeNarrowSemibold */@font-face {
+    font-family: 'DanskeNarrowSemibold';
+    src: url('DanskeNarrowSemibold.eot'); /* IE9 Compat Modes */
+    src: url('DanskeNarrowSemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('DanskeNarrowSemibold.woff') format('woff'), /* Modern Browsers */
+         url('DanskeNarrowSemibold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('DanskeNarrowSemibold.svg#DanskeNarrowSemibold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
