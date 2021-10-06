@@ -19,7 +19,7 @@ const handlePasswordChange = (e) => {
 const handleLoginSubmit = (e) => {
     e.preventDefault();
     let hardcodedCred = {
-        email: 'MCC',
+        email: 'USER',
         password: '12345678'
     }
 
