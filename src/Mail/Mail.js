@@ -5,13 +5,10 @@ import {Button, Spinner } from 'react-bootstrap';
 
 const FormPage = ({notifysent}) => {
   
-  const [sender, setSender] = useState('etoc-mcc@exchange.danskebank.com');
-  const [receiverTo, setReceiverTo] = useState(["tum@danskeit.co.in","bhram@danskeit.co.in"]);
-  const [receiverCc, setReceiverCc] = useState(["etoc-mcc@exchange.danskebank.com"]);
-  // const [sender, setSender] = useState('srsh@danskeit.co.in');
-  // const [receiverTo, setReceiverTo] = useState("srsh@danskeit.co.in pasah@danskeit.co.in");
-  // const [receiverCc, setReceiverCc] = useState("srsh@danskeit.co.in");
-  const [subject, setSubject] = useState("Weekend Batch Job Status");
+  const [sender, setSender] = useState('abc@abc.com');
+  const [receiverTo, setReceiverTo] = useState(["abc@abc.com"]);
+  const [receiverCc, setReceiverCc] = useState(["abc@abc.com"]);
+  const [subject, setSubject] = useState("subject");
   
   const [status, setStatus] = useState();
   const [onLoad, setonLoad] = useState(false)
@@ -19,14 +16,11 @@ const FormPage = ({notifysent}) => {
   const send = (e) => {
     e.preventDefault();
     setonLoad(true)
-    axios.post('https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Send_Email', dataMail)
-    // axios.post('http://weekend-batch-auto-syst-oc-2aat-syst.paas-dblan.danskenet.net:8081/Mcc/Weekend/Send_Email', dataMail)
+    axios.post('api_endpoint', dataMail)
         .then(res => {
           setStatus(res.data.Mail_Status);
-          // setonLoad(true)
         })
         .catch(error => {
-            // setErrormsg(error);
             console.log(error)
         })
         
@@ -76,7 +70,6 @@ return (
           <label style={{ color: "red" }}>{mailstatus}{(onLoad && !mailstatus) ? <Spinner animation="border" variant="primary" /> : null}</label>
         </div>
       </form>
-      {/* <label hidden>Hey there</label> */}
     </MDBCol>
   </MDBRow>
 </MDBContainer>
