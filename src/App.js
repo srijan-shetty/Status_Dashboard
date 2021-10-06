@@ -63,40 +63,22 @@ function App() {
 
   // All API's
   const statusAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Job_Status";
+    "API-ENDPOINT";
   const pendingAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Waitting_Jobs_Resources_Required_To_Complete";
+    "API-ENDPOINT";
   const cpuAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Waitting_Jobs_Details";
+    "API-ENDPOINT";
   const longrunningAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Long_Running_Jobs_Details";
+    "API-ENDPOINT";
   const errorAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Error_Jobs_Details";
+    "API-ENDPOINT";
   const top10API =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/Top_10_Jobs_Consuming_High_CPU";
+    "API-ENDPOINT";
   const storeAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/store_Comment";
+    "API-ENDPOINT";
   let getAPI =
-    "https://weekendapi-prod-oc-2aat.apps.az2-osp00.danskenet.net/Mcc/Weekend/get_Comment";
+    "API-ENDPOINT";
 
-  //   //TEST
-  //   const statusAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Job_Status";
-  // const pendingAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Waitting_Jobs_Resources_Required_To_Complete";
-  // const cpuAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Waitting_Jobs_Details";
-  // const longrunningAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Long_Running_Jobs_Details";
-  // const errorAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Error_Jobs_Details";
-  // const top10API =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/Top_10_Jobs_Consuming_High_CPU";
-  // const storeAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/store_Comment";
-  // let getAPI =
-  //   "http://v15045.danskenet.net:5022/Mcc/Weekend/get_Comment";
-    
 
   // To display data once loaded and to set result from get
   let [getstatus, setGetstatus] = useState();
@@ -183,7 +165,7 @@ function App() {
   };
   const notifyinvalid = () => {
     console.log("reached");
-    toast("Invalid Credentials! Please Use MCC Username & Password");
+    toast("Invalid Credentials! Please Use department Username & Password");
   };
   const notifyinvalidadmin = () => {
     toast("Invalid Credentials for ADMIN !!!");
