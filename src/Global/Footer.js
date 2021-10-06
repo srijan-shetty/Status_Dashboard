@@ -8,12 +8,12 @@ const Footer = () => {
       <MDBContainer fluid style={{backgroundColor: '#397798', fontSize: '130%', padding : '20px 0px 5px 0px'}}>
             <ul className="list-unstyled list-inline text-center">
               <li className="list-inline-item ">
-                  <p><strong style={{fontSize: '150%'}}>Contact support  </strong> For technical support, please contact Danske Bank MCC</p>
+                  <p><strong style={{fontSize: '150%'}}>Contact support  </strong> For technical support, please contact </p>
               </li>
               <li className="list-inline-item">
                 <Button>
                   {/* <a mdbBtn className="waves-light" mdbWavesEffect href="mailto:pema@danskebank.dk">Mail Support</a> */}
-                  <a href="mailto:etoc-mcc@exchange.danskebank.com">Mail Support</a>
+                  <a href="mailto:dummyexample@dummy.com">Mail Support</a>
                   </Button>
               </li>
             </ul>
@@ -21,7 +21,7 @@ const Footer = () => {
       <MDBContainer fluid style={{backgroundColor: '#003f63', padding: '10px 0px 10px 0px'}}>
             Developed By:
             {/* <Button> */}
-            <a href="mailto:etoc_auen@exchange.danskebank.com"> Automation and Engineering Team</a>
+            <a href="mailto:dummyexample@dummy.com"> Developer</a>
             {/* </Button> */}
       </MDBContainer>
     </MDBFooter>
