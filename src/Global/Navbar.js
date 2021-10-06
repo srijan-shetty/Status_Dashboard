@@ -15,7 +15,7 @@ const Navbar1 = ({ mailmodal, adminmodal }) => {
         <img
           src="DBlogo.jpg"
           height="30"
-          alt="Danske IT"
+          alt="image/logo"
           style={{ height: "30%", width: "100%" }}
         />
       </Navbar.Brand>
@@ -47,7 +47,7 @@ const Navbar1 = ({ mailmodal, adminmodal }) => {
             <NavDropdown
               title={
                 <span>
-                  <strong>Weekend Batch </strong>
+                  <strong>Dashboard Name </strong>
                 </span>
               }
               id="basic-nav-dropdown"
@@ -58,7 +58,7 @@ const Navbar1 = ({ mailmodal, adminmodal }) => {
                 // target="_blank"
                 style={{ fontSize: "24px" }} 
               >
-                Day & Night Batch 
+                Switch Dashboard Name
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
@@ -66,7 +66,7 @@ const Navbar1 = ({ mailmodal, adminmodal }) => {
                 // target="_blank"
                 style={{ fontSize: "24px" }} active
               >
-                Weekend Batch
+                Dashboard Name
               </NavDropdown.Item>
               {/* </Row> */}
             </NavDropdown>
@@ -75,7 +75,7 @@ const Navbar1 = ({ mailmodal, adminmodal }) => {
             href="#home"
             style={{ color: "black", marginLeft: "0%", fontWeight: "bold" }}
           >
-            Weekend Batch Statistics & Analysis
+            Dashboard Name
           </Navbar.Brand> */}
         </Nav>
       </Navbar.Collapse>
