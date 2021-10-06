@@ -12,7 +12,7 @@ const Detail = (props) => {
         <Row>
           <Col>
               <h3 style={{ fontWeight: "100%" }}>
-                <strong>Weekend Batch Statistics & Analysis </strong>
+                <strong>Dashboard Name </strong>
               </h3>
               <NavDropdown.Divider />
               <p style={{ color: "black", fontSize: "18px" }}>
